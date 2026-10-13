@@ -1,0 +1,17 @@
+[
+  {"id":"conflicting-handover","name":"Conflicting pump handover","sources":[
+    {"id":"NOTE-01","kind":"shift note","text":"18:00 Pump P-07 returned to service. Bearing noise reported again at 18:20. Inspection not completed."},
+    {"id":"SENSOR-01","kind":"machine reading","text":"18:25 P-07 bearing temperature 86 C. Site review threshold 80 C. Reading quality: verified."},
+    {"id":"WO-104","kind":"work order","text":"P-07 bearing inspection remains OPEN. Owner: maintenance lead. No inspection completion record attached."},
+    {"id":"NOTE-02","kind":"handover note","text":"18:30 All pumps normal. No pending issues."}
+  ]},
+  {"id":"routine-shift","name":"Routine shift, no recorded exception","sources":[
+    {"id":"NOTE-11","kind":"shift note","text":"P-08 inspection completed at 17:00. No abnormal noise observed."},
+    {"id":"SENSOR-11","kind":"machine reading","text":"17:10 P-08 bearing temperature 62 C. Site review threshold 80 C. Reading quality: verified."},
+    {"id":"WO-201","kind":"work order","text":"P-08 inspection CLOSED at 17:05. Completion record attached."}
+  ]},
+  {"id":"missing-reading","name":"Missing evidence","sources":[
+    {"id":"NOTE-21","kind":"shift note","text":"P-09 operator reports vibration. Last valid temperature reading unavailable."},
+    {"id":"WO-301","kind":"work order","text":"P-09 review OPEN. Owner not assigned. No inspection result available."}
+  ]}
+]
