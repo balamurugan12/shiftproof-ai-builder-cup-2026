@@ -1,0 +1,9 @@
+{
+  "created_date": "2026-10-09",
+  "file": "challenge-cases.json",
+  "sha256": "d8f0dbbe66fabcca28b6c25913bc3765d672f15636d2e8a2fb4c4875c3c55f88",
+  "cases": 8,
+  "purpose": "Frozen candidate challenge set before first live Gemini inference",
+  "limitations": "Synthetic agent-authored draft labels, not an independently adjudicated or blind benchmark. Same agent has seen cases and model prompt. Category/source-set matching may penalize defensible alternative findings.",
+  "change_policy": "Do not silently replace labels after seeing results. Record corrections as a new version with rationale and retain the original run."
+}
